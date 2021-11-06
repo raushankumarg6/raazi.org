@@ -1,0 +1,84 @@
+* {
+  color: whitesmoke;
+  font-size: 25px;
+  background-image: url("macos_bg__b9yaapi9sjv6_large_2x.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font: bolder;
+}
+
+/* uppercase is class used to group the element & increase more readability of the code . */
+.list-2 {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+/* We can do nestng in class and id as well like: .cursive p {} , #blog-desc{} here, cursive is a class and blog-desc is a id */
+.cursive {
+  font-family: cursive;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* We want to target h4 of list li .. so, here we nesting li then h4 */
+/* li h4 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+} */
+
+/* blog-desc is name of id to target a specific element */
+#blog-desc {
+  color: #19e883;
+}
+
+#blog-title:hover {
+  color: darkmagenta;
+}
+/* Priority if the element have conflicts in their property  */
+/* inline CSS > id selector > class selector > type selector like: h1  */
+
+/* if class selector , id selector defined and then if again class selector is define for a single element then , effect of last class selector will apply */
+
+/* aside */
+.widget {
+  border-top: 20px solid black;
+}
+.widget input {
+  display: block;
+  /* background-color: cornsilk; */
+  margin-bottom: 8px;
+  padding: 5px;
+  color: rgb(15, 16, 17);
+  font-size: 1.2rem;
+}
+
+button [type="submit"] {
+  font-size: 2rem;
+  background-color: black;
+  color: rgb(0, 255, 13);
+  padding: 10px;
+}
+
+main {
+  display: inline-block;
+  width: 64%;
+}
+
+aside {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+
+#author {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+}
