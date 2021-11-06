@@ -1,0 +1,411 @@
+<!--Indicates it's HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Web Page</title>
+    <script src=""></script>
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="/wallpapersden.com_mac-mini-apple-m1-chip_3840x2160.jpg" type="image/x-icon" >
+    <!--  -->
+    <meta name="description" content="">
+    <meta name="keywords" content="coding,html,css">
+    <meta name="author" content="Raushan">
+
+    <link rel="stylesheet" href="style_try.css">
+    
+
+
+    <!-- // head is for meta data for the info about web page -->
+  </head>
+  <body>
+    <!-- Actual content of page -->
+    <!-- Navigation bar -->
+    <nav>
+      <a href="indexx.html" target="_blank">Form</a>
+      <a href="#comments-section">Go to Comments</a>
+      <!--#comments-section means it go to the comment id -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <h1 id="blog-title">Five tips for front-end web development</h1>
+      <!-- Logo -->
+      <a href="https://www.google.com" target="_blank"
+        ><img src="/wp2969904.jpg" width="30%" height="20%" alt="loading" />
+      </a>
+      <!-- Website link -->
+      <div>
+        <a href="https://www.google.com"><h3>google.com</h3></a>
+        <p id="blog-desc">Welcome to the my Website !</p>
+
+      </div>
+
+      <!-- Blog image -->
+      <img
+        src="/NewEdgeStudio_04.jpg"
+        width="50%"
+        height="30%"
+        alt="Loading"
+        sizes="20px"
+      />
+    </header>
+
+
+    <div id="author">
+      <h3>Raushan</h3>
+      <img style="width: 40%;" src="/wallpapersden.com_mac-mini-apple-m1-chip_3840x2160.jpg" alt="">
+      <br>
+      <a href="https://www.google.com" style="font-size: 20px;">Connect Us</a>
+    </div>
+    <main>
+      <!-- Content  -->
+      <!-- Paragraph 1 -->
+      <!-- &nbsp; for adding more space -->
+      <h1>Content</h1>
+      <ol type="A">
+        <li>
+          <h4 class="uppercase cursive">Paragraph</h4> <!--here we use 2 class 1. uppercase and 2. currive by this we can apply the property of both class in js & also CSS.-->
+          <p style="color: aquamarine;"> <!--inline css-->
+            Lorem &nbsp &nbsp; ipsum dolor sit amet, consectetur adipisicing
+            elit. Molestiae quos fugit ad delectus ipsam assumenda iste saepe
+            architecto. Modi commodi totam ullam odit recusandae hic pariatur,
+            ad atque quia necessitatibus nisi officia dolor quibusdam natus
+            aliquam, omnis odio, non molestiae! Qui facere aut iure fugit!
+          </p>
+          <!-- <br> -->
+        </li>
+        <!-- Paragraph 2  -->
+        <li>
+          <h4>Invest in productive tools</h4>
+          <p>
+            sit amet consectetur adipisicing elit. Molestiae,
+            excepturi harum eveniet illo mollitia nam explicabo? Vitae sed
+            laboriosam cupiditate eum error velit porro odio, quia laborum quos
+            possimus iste ullat architecto! Deserunt neque
+            molestiae sint perferendis, nulla veritatis voluptatum nobis,
+            consequuntur doloribus eaque totam ea adipisci enim !!
+          </p>
+         
+          <!-- List -->
+          <!-- Ordered List -->
+          <ol type="1" start="1" class="list-2">
+            <!-- type is attribute of tag ol -->
+            <!-- list item -->
+            <li><b>Frontend</b> Focus</li>
+            <!--b is a inline tag which boldify the text-->
+            <li><i>Css weekly</i></li>
+            <li>
+              <b><i>Bold italic</i></b>
+            </li>
+            <li>Javascript weekly</li>
+            <li>Web design weekly</li>
+          </ol>
+          <br />
+          <!-- Unorder List -->
+          <ul type="circle" class="list-2">
+            <!-- type is attribute of tag ul -->
+            <!-- list item -->
+            <li><a href="https://www.google.com" target="_blank">Frontend Focus</a></li>
+            <!-- <a href="www.g.com"><li>Web Developer</li></a> -->
+            <li>Css weekly</li>
+            <li>Javascript weekly</li>
+            <li>Web design weekly</li>
+          </ul>
+        </li>
+
+        <li>
+          <h4>Always Be curious</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad illo,
+            reprehenderit voluptas neque vel voluptatem eveniet a dolore dicta
+            recusandae facilis repudiandae iure distinctio. Enim temporibus
+            illum facilis officiis accusantium!
+          </p>
+        </li>
+        <li>
+          <h4>Refactor</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            molestias itaque, recusandae enim culpa, porro corrupti distinctio
+            sunt, libero est nobis ipsa. Obcaecati eligendi odit tenetur iure
+            delectus dicta odio dolorem molestias, vero libero maxime dolores
+            aperiam reiciendis soluta inventore!
+          </p>
+        </li>
+        <li>
+          <h4>Shoptalk </h4>
+          <p>
+            Ipsum dolor sit amet consectetur, adipisicing elit. Repellat
+            amet, expedita rerum maxime ipsa officiis provident dolorum sequi ut
+            repudiandae illum maiores error vero repellendus nesciunt quis,
+            ducimus fugiat at doloremque molestias. Voluptate maiores beatae
+            exercitationem sapiente totam, excepturi maxime recusandae
+            accusantium autem saepe non. Aperiam laudantium, maxime minima
+            accusantium quasi recusandae magni! Quisquam repellat reiciendis
+            illum earum sunt illo?
+          </p>
+        </li>
+      </ol>
+      <!-- form -->
+      <!-- input tag is inline tag -->
+      <form action="" method="post"> 
+        <div>
+          <label for="Username">Username: </label> <br />
+          <input
+            type="email"
+            name="Username"
+            id="Username"
+            required
+            placeholder="abc@example.com"
+          />
+          <br />
+        </div>
+        <div>
+          <label for="password">Password:</label> <br />
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="password"
+          />
+          <br />
+          <div>
+            <p>Gender:</p>
+            <br />
+            <input type="radio" name="gender" value="male" id="" checked />Male
+            <br />
+            <input type="radio" name="gender" id="" value="female" />Female
+            <br />
+            <input type="radio" name="gender" id="" value="other" />Other<br />
+
+            <h3>Checkbox:</h3>
+
+            <input type="checkbox" name="course" value="cpp" id="" checked />
+            cpp <br />
+            <input type="checkbox" name="course" value="java" id="" /> java
+            <br />
+            <input type="checkbox" name="course" value="python" id="" />
+            python<br />
+          </div>
+        </div>
+        <div>
+          <label for="country">Country:</label> <br />
+          <input
+            type="country"
+            name="country"
+            value="India"
+            id="country"
+            required
+          />
+          <!-- value indicates default value of that field -->
+          <br />
+
+          <label for="time">Time:</label> <br />
+          <input type="time" name="" id="time" disabled /> <br />
+        </div>
+        <div>
+          <input
+            type="range"
+            name=""
+            id=""
+            required
+            min="10"
+            max="200"
+            step="10"
+          />
+        </div>
+        <div>
+          <!-- select tag for drop down list  -->
+          <select name="month"  id="month" >
+            <option value="jan">jan</option>
+            <option value="feb" selected>feb</option>
+            <option value=mar">mar</option>
+            <option value="april">april</option>
+          </select>
+
+          <select name="month1"  id="month1" multiple>
+            <option value="jan" selected>jan</option>
+            <option value="feb">feb</option>
+            <option value="mar">mar</option>
+            <option value="april">april</option>
+          </select>
+
+        </div>
+        <div>
+          <p>Share your experiance</p>
+          <textarea name="experiance" id="experiance" cols="10" rows="5"></textarea>
+          <br>
+          <input type="button" value="Button 1 ">
+          <button type="button" > <img src="/NewEdgeStudio_04.jpg" width="20px" alt=""> Button 2 </button>
+        </div>
+        <div>
+          <!-- <label for="submit">Submit:</label> <br /> -->
+          <input type="submit" id="submit" />
+          <input type="reset" />
+        </div>
+      </form>
+    </main>
+
+    <aside>
+      <section id="subsctibe" class="widget">
+
+        <h2>Subscribe now to stay updated with new tech. trends</h2>
+        <div id="subscribe-form">
+          <form action=""> <label for="input-name">Name:</label>
+            <input type="text" id="input-name" name="name" required >
+            <label for="input-email">Email:</label>
+            <input type="email" name="input-email" id="input-email" required>
+            <button type="submit" id="sub-btn">SUBSCRIBE</button>
+          </form>
+        </div>
+      </section>
+    </aside>
+
+
+    <!-- <div>
+      <table border="8">
+        <caption>
+          Demo Table
+        </caption>
+        <tr>
+          <th></th>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column3</th>
+        </tr>
+        <tr>
+          <th>Row 1</th>
+          <td>Cell 1,1</td>
+          <td>Cell 1,2</td>
+          <td>Cell 1,3</td>
+        </tr>
+        <tr>
+          <th>Row 2</th>
+          <td>Cell 2,1</td>
+          <td>Cell 2,2</td>
+          <td>Cell 2,3</td>
+        </tr>
+        <tr>
+          <th>Row 3</th>
+          <td>Cell 3,1</td>
+          <td>Cell 3,2</td>
+          <td>Cell 3,3</td>
+        </tr>
+      </table>
+
+      <br />
+
+      <table border="4">
+        <caption>
+          Demo Table
+        </caption>
+        <tr>
+          <th></th>
+          <th colspan="2">Column 1</th>
+          <th>Column 2</th>
+          <!-- <th>Column3</th> -->
+        <!-- </tr>
+        <tr>
+          <th rowspan="2">Row 1</th>
+          <td>Cell 1,1</td>
+          <td>Cell 1,2</td>
+          <td>Cell 1,3</td>
+        </tr>
+        <tr>
+          <!-- <th>Row 2</th> -->
+          <!-- <td>Cell 2,1</td>
+          <td>Cell 2,2</td>
+          <td>Cell 2,3</td>
+        </tr>
+        <tr> -->
+          <!-- <th>Row 3</th>
+          <td>Cell 3,1</td>
+          <td>Cell 3,2</td>
+          <td>Cell 3,3</td> -->
+        <!-- </tr> -->
+      <!-- </table> --> -->
+    <!-- </div> --> -->
+    <!-- Ending Paragraph  -->
+    <!-- Adding image -->
+
+    <!-- <img src="wp2969904.jpg" alt="Loading"> -->
+    <!-- Semantics tag =>
+    nav, header, main, footer it's just like div but increases the readability
+    of code -->
+    <!-- id is use to identify that unique element of that id  -->
+    <!-- section -- -->
+    <section id="comments-section">
+      <!--# represent we are using internal link -->
+      <h2>Header</h2>
+      <div>
+        <h4>Name</h4>
+        <p>Comment</p>
+      </div>
+      <div>
+        <h4>Name</h4>
+        <p>Comment</p>
+      </div>
+      <div>
+        <h4>Name</h4>
+        <p>Comment</p>
+      </div>
+    </section>
+    <!-- # indicates you have to goto the top of this page -->
+    <a href="#">Back to Top</a>
+    <footer></footer>
+
+    <!--  h,p , div => tag is block type start in new line and occupy full space of that line -->
+
+    <h2>Heading 1</h2>
+    <h2>Heading 2</h2>
+    <p>This is paragraph</p>
+    <div>
+      <img src="/NewEdgeStudio_04.jpg" width="200" alt="loading" />
+    </div>
+    <div>
+      <!-- div is a container to group the all tags in one group -->
+      <img src="/wp2969904.jpg" width="200" alt="" />
+    </div>
+
+    <!--Inline tag => img,a => they dont start in new line and they take space as much require it's content , dont block the complete line   -->
+    <img src="/NewEdgeStudio_04.jpg" width="200" alt="loading" />
+    <img src="/wp2969904.jpg" width="200" alt="" />
+
+    <p>
+      This is a <b>sample</b> paragraph . Sample <i>italics.</i> text.
+      <b><i>Both bold and italics .</i></b>
+      <strong>Strong text</strong>
+    </p>
+
+    <p>
+      a <sup>2</sup> a <sub>j</sub>
+      <q>Quoted text</q>
+    </p>
+
+    <audio src="/Bhakti.m4a" controls>Audio</audio>
+    <!-- <audio controls>
+
+      <source src="/Bhakti.m4a" type="">
+    </audio> -->
+    <br>
+
+    <video src="">
+      <source src="" type="">
+      Browser doesn't support video format.
+    </video>
+    <br>
+
+    <figure>
+      <img src="/NewEdgeStudio_04.jpg" alt="loading" width="50px" height="50px">
+      <figcaption>Studio</figcaption>
+
+    </figure>
+
+    <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Thank you !</h1>
+    
+    <!-- span => inline tag  -->
+  </body>
+</html>
